@@ -5,7 +5,7 @@ const STATS = [
   { value: 50, suffix: '+', label: 'Expected Teams' },
   { value: 7, suffix: '', label: 'Core Committee', display: '6–7' },
   { value: 5, suffix: '+', label: 'Faculty Mentors' },
-  { value: 8-10, suffix: ' Days', label: 'Prototype Duration' },
+  { value: 8, suffix: ' Days', label: 'Prototype Duration' },
   { value: 0, suffix: '', label: 'Selection Round', display: 'Top Teams' },
 ]
 
