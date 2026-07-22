@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { HiOutlineDownload, HiArrowRight } from 'react-icons/hi'
+import { FaWhatsapp } from "react-icons/fa";
 import SietLogo from './Logo.jsx'
 import SihBrainIcon from './SihBrainIcon.jsx'
 import { siteConfig } from '../siteConfig.js'
@@ -57,6 +58,23 @@ export default function Hero() {
             >
               Download Guidelines <HiOutlineDownload />
             </a>
+            <a
+  href="https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group flex items-center gap-3 rounded-full border border-green-400/30 bg-green-500/10 px-7 py-4 backdrop-blur-md transition-all duration-300 hover:bg-green-500 hover:shadow-[0_0_25px_rgba(37,211,102,0.45)]"
+>
+  <FaWhatsapp className="text-2xl text-[#25D366] group-hover:text-white" />
+
+  <div className="flex flex-col leading-tight">
+    <span className="font-semibold text-white">
+      Join WhatsApp Group
+    </span>
+    <span className="text-xs text-green-300 group-hover:text-white/90">
+      Stay updated with the latest announcements and discussions.
+    </span>
+  </div>
+</a>
           </div>
         </motion.div>
 
