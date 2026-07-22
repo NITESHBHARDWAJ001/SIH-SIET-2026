@@ -4,9 +4,9 @@ export const siteConfig = {
   orgFull: 'State Institute of Engineering & Technology, Nilokheri',
   tagline: 'Innovate • Prototype • Present • Represent',
 
-  registrationFormUrl: 'https://forms.google.com/REPLACE_WITH_REGISTRATION_FORM',
-  submissionFormUrl: 'https://forms.google.com/REPLACE_WITH_SUBMISSION_FORM',
-  guidelinesPdfUrl: '/resources/guidelines.pdf',
+  registrationFormUrl: 'https://admin-siet-sih.vercel.app/register',
+  submissionFormUrl: 'https://admin-siet-sih.vercel.app/submit',
+  guidelinesPdfUrl: 'https://admin-siet-sih.vercel.app/downloads',
 
   dates: {
     noticeReleased: '20 July 2026',
@@ -22,9 +22,9 @@ export const siteConfig = {
   },
 
   contact: {
-    department: 'Training & Placement Cell, SIET Nilokheri',
-    facultyCoordinator: 'Dr. Faculty Name',
-    studentCoordinators: 'Student Coordinator Name',
+    department: 'Computer Engineering, SIET Nilokheri',
+    facultyCoordinator: 'Mr. Ashish Kharab',
+    studentCoordinators: 'Student Coordinators team',
     email: 'sih2026@sietk.ac.in',
     phone: '+91 XXXXX XXXXX',
     location: 'State Institute of Engineering & Technology, Nilokheri, Karnal, Haryana',

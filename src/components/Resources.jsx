@@ -3,13 +3,13 @@ import { HiOutlineBookOpen, HiOutlineDocumentText, HiOutlineTemplate, HiOutlineC
 import { siteConfig } from '../siteConfig.js'
 
 const RESOURCES = [
-  { icon: HiOutlineBookOpen, title: 'Rulebook', desc: 'Complete rules governing the internal hackathon.', href: '#', external: false },
+  { icon: HiOutlineBookOpen, title: 'Rulebook', desc: 'Complete rules governing the internal hackathon.', href: 'https://drive.google.com/file/d/10gfwhZQN1u7-IkU5IvrKWT38-xleroqZ/view', external: false },
   { icon: HiOutlineDocumentText, title: 'Guidelines PDF', desc: 'Step-by-step guidance for teams.', href: siteConfig.guidelinesPdfUrl, external: false },
-  { icon: HiOutlineTemplate, title: 'PPT Template', desc: 'Official presentation template for submissions.', href: '#', external: false },
-  { icon: HiOutlineClipboardList, title: 'Report Template', desc: 'Standard format for the project report.', href: '#', external: false },
+  { icon: HiOutlineTemplate, title: 'PPT Template', desc: 'Official presentation template for submissions.', href: 'https://docs.google.com/presentation/d/10otNgjnv5KPoUZsBdk_iF4YC1agCoWSg/edit?slide=id.p1#slide=id.p1', external: false },
+  // { icon: HiOutlineClipboardList, title: 'Report Template', desc: 'Standard format for the project report.', href: '#', external: false },
   { icon: HiOutlineCollection, title: 'Problem Statements', desc: 'Full list once released on 1 August.', href: '#problem-statements', external: false },
   { icon: HiOutlineExternalLink, title: 'Official SIH Website', desc: 'Visit the national Smart India Hackathon portal.', href: 'https://sih.gov.in', external: true },
-  { icon: HiOutlineQuestionMarkCircle, title: 'FAQs PDF', desc: 'Downloadable answers to common queries.', href: '#faq', external: false },
+  { icon: HiOutlineQuestionMarkCircle, title: 'FAQs PDF', desc: 'Downloadable answers to common queries.', href: 'https://drive.google.com/file/d/1AH4guBGcjUtmN6-wmqpYFHlJ-SC0nQry/view', external: false },
 ]
 
 export default function Resources() {

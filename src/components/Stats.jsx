@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import CountUp from 'react-countup'
 
 const STATS = [
-  { value: 150, suffix: '+', label: 'Expected Teams' },
+  { value: 50, suffix: '+', label: 'Expected Teams' },
   { value: 7, suffix: '', label: 'Core Committee', display: '6–7' },
-  { value: 15, suffix: '+', label: 'Faculty Mentors' },
-  { value: 7, suffix: ' Days', label: 'Prototype Duration' },
+  { value: 5, suffix: '+', label: 'Faculty Mentors' },
+  { value: 8-10, suffix: ' Days', label: 'Prototype Duration' },
   { value: 0, suffix: '', label: 'Selection Round', display: 'Top Teams' },
 ]
 

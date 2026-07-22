@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
-import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker, HiOutlineOfficeBuilding, HiOutlineUser } from 'react-icons/hi'
+import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker, HiOutlineOfficeBuilding, HiOutlineUser,HiOutlineLink, } from 'react-icons/hi'
+import { FaWhatsapp } from "react-icons/fa";
 import { siteConfig } from '../siteConfig.js'
 
 const ROWS = [
@@ -9,6 +10,18 @@ const ROWS = [
   { icon: HiOutlineMail, label: 'Email', value: siteConfig.contact.email, href: `mailto:${siteConfig.contact.email}` },
   { icon: HiOutlinePhone, label: 'Phone', value: siteConfig.contact.phone, href: `tel:${siteConfig.contact.phone}` },
   { icon: HiOutlineLocationMarker, label: 'Location', value: siteConfig.contact.location },
+  {
+  icon: FaWhatsapp,
+  label: "WhatsApp Group",
+  value: "Join Community",
+  link: "https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX",
+},
+{
+  icon: HiOutlineLink,
+  label: "Join Link",
+  value: "https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX",
+  link: "https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX",
+},
 ]
 
 export default function Contact() {
