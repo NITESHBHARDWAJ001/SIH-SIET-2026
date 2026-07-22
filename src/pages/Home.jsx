@@ -47,7 +47,7 @@ export default function Home() {
         <Judging />
         <FAQ />
         <Announcements />
-        <Committee />
+        {/* <Committee /> */}
         <Contact />
       </main>
       <Footer />

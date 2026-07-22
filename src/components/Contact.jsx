@@ -6,9 +6,9 @@ import { siteConfig } from '../siteConfig.js'
 const ROWS = [
   { icon: HiOutlineOfficeBuilding, label: 'Department', value: siteConfig.contact.department },
   { icon: HiOutlineUser, label: 'Faculty Coordinator', value: siteConfig.contact.facultyCoordinator },
-  { icon: HiOutlineUser, label: 'Student Coordinators', value: siteConfig.contact.studentCoordinators },
-  { icon: HiOutlineMail, label: 'Email', value: siteConfig.contact.email, href: `mailto:${siteConfig.contact.email}` },
-  { icon: HiOutlinePhone, label: 'Phone', value: siteConfig.contact.phone, href: `tel:${siteConfig.contact.phone}` },
+  // { icon: HiOutlineUser, label: 'Student Coordinators', value: siteConfig.contact.studentCoordinators },
+  // { icon: HiOutlineMail, label: 'Email', value: siteConfig.contact.email, href: `mailto:${siteConfig.contact.email}` },
+  // { icon: HiOutlinePhone, label: 'Phone', value: siteConfig.contact.phone, href: `tel:${siteConfig.contact.phone}` },
   { icon: HiOutlineLocationMarker, label: 'Location', value: siteConfig.contact.location },
   {
   icon: FaWhatsapp,

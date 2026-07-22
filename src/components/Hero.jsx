@@ -58,23 +58,19 @@ export default function Hero() {
             >
               Download Guidelines <HiOutlineDownload />
             </a>
-            <a
-  href="https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group flex items-center gap-3 rounded-full border border-green-400/30 bg-green-500/10 px-7 py-4 backdrop-blur-md transition-all duration-300 hover:bg-green-500 hover:shadow-[0_0_25px_rgba(37,211,102,0.45)]"
->
-  <FaWhatsapp className="text-2xl text-[#25D366] group-hover:text-white" />
+  {/* WhatsApp */}
+  <a
+    href="https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group inline-flex h-14 items-center justify-center gap-3 rounded-full border border-[#25D366]/40 bg-[#25D366]/15 px-8 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:bg-[#25D366] hover:shadow-[0_0_25px_rgba(37,211,102,0.45)]"
+  >
+    <FaWhatsapp className="text-2xl text-[#25D366] transition-colors duration-300 group-hover:text-white" />
 
-  <div className="flex flex-col leading-tight">
-    <span className="font-semibold text-white">
-      Join WhatsApp Group
-    </span>
-    <span className="text-xs text-green-300 group-hover:text-white/90">
-      Stay updated with the latest announcements and discussions.
-    </span>
-  </div>
-</a>
+    <span>Join WhatsApp Group</span>
+
+    <HiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
+  </a>
           </div>
         </motion.div>
 
