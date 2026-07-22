@@ -60,7 +60,7 @@ export default function Hero() {
             </a>
   {/* WhatsApp */}
   <a
-    href="https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX"
+    href="https://chat.whatsapp.com/GftPdnHqrnw24lXufg0yfi"
     target="_blank"
     rel="noopener noreferrer"
     className="group inline-flex h-14 items-center justify-center gap-3 rounded-full border border-[#25D366]/40 bg-[#25D366]/15 px-8 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:bg-[#25D366] hover:shadow-[0_0_25px_rgba(37,211,102,0.45)]"

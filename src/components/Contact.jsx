@@ -14,13 +14,13 @@ const ROWS = [
   icon: FaWhatsapp,
   label: "WhatsApp Group",
   value: "Join Community",
-  link: "https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX",
+  link: "https://chat.whatsapp.com/GftPdnHqrnw24lXufg0yfi",
 },
 {
   icon: HiOutlineLink,
   label: "Join Link",
-  value: "https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX",
-  link: "https://chat.whatsapp.com/IHmE8uX3nG1F0FjbEHzGlX",
+  value: "https://chat.whatsapp.com/GftPdnHqrnw24lXufg0yfi",
+  link: "https://chat.whatsapp.com/GftPdnHqrnw24lXufg0yfi",
 },
 ]
 
